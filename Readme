@@ -1,1 +1,11 @@
-s
+Acute Ischaemic Stroke (AIS) screening tool using haemodynamics waveforms
+
+This study investigates the feasibility of developing a machine-learning model to diagnose and locate occluding blood clots from velocity waveforms, which can be easily be obtained with portable devices such as Doppler Ultrasound. The goal is to
+explore this approach as a cost-effective and time-efficient alternative to advanced imaging techniques typically available only in large hospitals.
+
+-Research paper that explain details of code will be shared and the code will be improved to make it user-friendly also created database will be shared.
+-Database_creator file creates .inp file for healthy and AIS patients. .inp files can execute with Nektar1D[http://haemod.uk/nektar] to simulate 1D blood flow model.
+
+
+
+
