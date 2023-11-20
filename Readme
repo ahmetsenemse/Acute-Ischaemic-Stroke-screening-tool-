@@ -1,13 +1,25 @@
 Acute Ischaemic Stroke (AIS) screening tool using hemodynamics waveforms
 
+
 This study investigates the feasibility of developing a machine-learning model to diagnose and locate occluding blood clots from velocity waveforms, which can be easily be obtained with portable devices such as Doppler Ultrasound. The goal is to
 explore this approach as a cost-effective and time-efficient alternative to advanced imaging techniques typically available only in large hospitals.
 
+Accompanying Article:
+This code is provided to facilitate reproduction of 1D AIS model: 
+           SEN A. et al. Modeling 1D pulse waves in healthy and AIS patinent and train ML model to predict location and region of AIS 
+           DOI: ~~ tbc ~~
+       Further information on the research will provided in this article and at the project website:
+
+Contributed to by: Ahmet SEN, Miquel Aguirre Font, Stephane Avril and Laurent Miquel Aguirre Font
+v.0.1
+
+Notes:
 -A research paper explaining the code's details will be shared, and the code will be improved to make it user-friendly. Also, the created database will be shared.
 -Database_creator file creates .inp file for healthy and AIS patients. .inp files can execute with Nektar1D[http://haemod.uk/nektar] to simulate the 1D blood flow model.
 -Geometry and possible AIS.jpg show this research's ideal brain vessel geometry.
 -Classifier1 file includes a python file that trains ML using hemodynamics waveforms to detect the region of AIS
 -Classifier2 file includes a python file that trains ML using hemodynamics waveforms to detect the location of AIS
+
 
 
 
