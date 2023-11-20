@@ -638,7 +638,7 @@ tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=log_dir, histogram
 
 
 model.compile(loss='BinaryCrossentropy', metrics=['accuracy'], optimizer='adam')
-model.fit(x_train, y_train, batch_size=256, epochs=100000,validation_data=(x_test,y_test))
+model.fit(x_train, y_train, batch_size=256, epochs=100000)
 
 
 A=model.predict(x_train)
